@@ -1,39 +1,19 @@
-# Waiter Front
+# Waiter Admin
 
-## Table of Contents
+.env file:
 
-1. [Stack](#stack)
-2. [Prerequisites](#prerequisites)
-3. [Installation](#installation)
-4. [Running](#running)
-
-## Stack
-
-* **Framework:** React
-* **Deployment:** Amazon Web Services (AWS)
-
-## Prerequisites
-
-* [Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) - a version control system for tracking changes in computer files
-* [Node.js & npm](https://nodejs.org/en/) - evented I/O for the backend
-
-## Installation
-
-```sh
-$ git clone https://git.vpgrp.io/vp-labs/lab-epitech/waiter
-$ cd waiter/front
-$ npm install
 ```
-
-## Running
-
-```sh
-$ cd waiter/front
-$ npm start
+NODE_PATH=src/
+REACT_APP_API_URL=
+# REACT_APP_NGINX_URL=
+# REACT_APP_GITLAB_API_URL=
+# REACT_APP_GITLAB_URL=
+# REACT_APP_GITLAB_TOKEN=
+# REACT_APP_GITHUB_API_URL=
+# REACT_APP_GITHUB_URL=
+# REACT_APP_GITHUB_TOKEN=
+# REACT_APP_SLACK_API_URL=
+# REACT_APP_SLACK_URL=
+# REACT_APP_SLACK_TOKEN=
+PORT=8090
 ```
-
-Then go to [`http://localhost:8080`](http://localhost:8080)
-
-------
-
-[◄ Go Back to main README](../README.md)

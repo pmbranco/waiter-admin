@@ -19,8 +19,6 @@ const styles = {
   },
 }
 
-const staticMapUrl = ""
-
 class EventItem extends Component {
   render() {
     const { classes } = this.props
